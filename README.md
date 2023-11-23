@@ -80,10 +80,10 @@ padding-top: 20px;
 <form method="POST">
 {% csrf_token %}
 <div class="formelt">
-Length : <input type="text" name="base" value="{{b}}"></input>(in m)<br/>
+Base : <input type="text" name="base" value="{{b}}"></input>(in m)<br/>
 </div>
 <div class="formelt">
-Breadth : <input type="text" name="height" value="{{h}}"></input>(in m)<br/>
+Height : <input type="text" name="height" value="{{h}}"></input>(in m)<br/>
 </div>
 <div class="formelt">
 <input type="submit" value="Calculate"></input><br/>
@@ -135,10 +135,13 @@ urlpatterns = [
 ```
 
 ## SERVER SIDE PROCESSING:
-![Alt text](<Screenshot 2023-11-23 115336.png>)
+![Screenshot 2023-11-23 115336](https://github.com/HariharanJayavel/MathServer/assets/144870546/728ef4dd-5056-47d1-9ed9-c5e770c2b7ed)
+
 
 ## HOMEPAGE:
-![Alt text](<Screenshot 2023-11-23 115225.png>)
+![Screenshot 2023-11-23 122854](https://github.com/HariharanJayavel/MathServer/assets/144870546/a6fc43c6-7e67-434b-87ed-504ffa2ae5e2)
+
+
 
 ## RESULT:
 The program for performing server side processing is completed successfully.
